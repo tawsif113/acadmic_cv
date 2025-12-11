@@ -1,44 +1,28 @@
 %-------------------------------------------------------------------------------
-%	SECTION TITLE
+%       SECTION TITLE
 %-------------------------------------------------------------------------------
 \cvsection{Work Experience}
 
-
 %-------------------------------------------------------------------------------
-%	CONTENT
+%       CONTENT
 %-------------------------------------------------------------------------------
 \begin{cventries}
 
 %---------------------------------------------------------
   \cventry
-  {Software Engineer}
-  {BRAC IT Services Ltd.}
-  {Dhaka, Bangladesh}
-  {Dec. 2024 -- Present}
-  {
-    \begin{cvitems}
-      \item {Developed backend modules for a multi-tenant CRM \& Ticketing System using Spring Boot, PostgreSQL, Redis, RabbitMQ, \\and MinIO, focusing on scalable service design and reliability.}
-      \item {Implemented REST APIs for ticket lifecycle operations (create/update/search) with integrated SLA/KPI tracking, automated \\assignment rules, and full audit logging.}
-      \item {Designed event-driven workflows using RabbitMQ (notifications, audit, SLA stage changes) with DLQ handling, retry policies,\\ and message durability guarantees.}
-      \item {Built secure JWT-based authentication with role--permission authorization and refresh token flows for high-volume enterprise users.}
-      \item {Optimized system performance via Redis caching (sorted sets, hash maps) and PostgreSQL indexing strategies (GIN/pg\_trgm), \\significantly reducing query latency.}
-      \item {Integrated MinIO-based attachment service with presigned URL mechanisms and maintained schema evolution using Flyway \\migrations.}
-    \end{cvitems}
-  }
-
-
-\cventry
-  {Independent Researcher — NLP Security \& LLM Safety}
-  {Personal Project}
-  {Dhaka, Bangladesh}
-  {Sept. 2024 -- Present}
-  {
-    \begin{cvitems}
-      \item {Investigating prompt injection and RAG poisoning attacks on open LLMs.}
-      \item {Built dataset, crafted instruction data and trained detectors using Hugging Face.}
-      \item {Experimenting with attack mitigation and dataset generalization methods.}
-    \end{cvitems}
-  }
+    {Software Engineer}
+    {BRAC IT Services Ltd.}
+    {Dhaka, Bangladesh}
+    {Dec. 2024 -- Present}
+    {
+      \begin{cvitems}
+        \item {Built multi-tenant CRM \& Ticketing backend services with Spring Boot, PostgreSQL, Redis, RabbitMQ, and MinIO, emphasizing reliability and observability.}
+        \item {Implemented REST APIs for ticket lifecycles with SLA/KPI instrumentation, audit trails, and role-based authorization.}
+        \item {Engineered event-driven workflows with RabbitMQ (notifications, audit, SLA transitions) including DLQs, retry policies, and persistence for high-volume traffic.}
+        \item {Optimized performance through Redis caching patterns and PostgreSQL indexing/partitioning; enforced schema evolution via Flyway migrations.}
+        \item {Contributed system design docs and experiments on secure token flows and logging pipelines to inform reliability testing.}
+      \end{cvitems}
+    }
 
 %---------------------------------------------------------
 \end{cventries}
